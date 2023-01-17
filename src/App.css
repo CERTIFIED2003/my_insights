@@ -98,6 +98,10 @@ img {
 }
 
 /* REUSABLE CSS CLASSES */
+.space--vertical {
+  padding: 4rem 0 4rem 0;
+}
+
 .section {
   padding: 6rem 0 2rem;
 }
@@ -184,12 +188,24 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
+
   .section {
     padding: 2rem 0 4rem;
   }
+
+  .section__subtitle {
+    margin-bottom: --mb-3;
+  }
 }
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+  .space--vertical {
+    padding: 0;
+  }
+}
 
 @media screen and (max-width: 350px) {
   .container {

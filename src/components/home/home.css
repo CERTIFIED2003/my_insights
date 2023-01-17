@@ -64,7 +64,7 @@
 }
 
 .home__img {
-    background: url(../../assets/profile_new.jpg);
+    background: url(../../assets/profile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -183,7 +183,8 @@
     }
 
     .home__scroll {
-        display: none;
+        /* display: none; */
+        margin: 0 auto;
     }
 }
 
