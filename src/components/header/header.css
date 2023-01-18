@@ -6,6 +6,13 @@
     bottom: 0;
     z-index: var(--z-fixed);
     background-color: var(--body-color);
+}
+
+.show-header {
+    display: none;
+}
+
+.scroll-header {
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -38,6 +45,10 @@
     transition: 0.3s;
 }
 
+.nav__link i {
+    transition: 0.3s;
+}
+
 .nav__icon,
 .nav__close,
 .nav__toggle {
@@ -50,7 +61,18 @@
     color: var(--title-color-dark);
 }
 
+.active-link i {
+    transform: scale(1.35);
+}
+
 /* BREAKPOINTS */
+
+@media screen and (min-width: 768px) {
+    .active-link {
+        scale: 1.2;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .header {
         top: initial;

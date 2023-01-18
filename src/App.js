@@ -6,6 +6,7 @@ import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
 import Qualification from './components/qualification/Qualification';
+import ScrollUp from './components/scrollup/ScrollUp';
 import Services from './components/services/Services';
 import Skills from './components/skills/Skills';
 import Testimonials from './components/testimonials/Testimonials';
@@ -25,7 +26,7 @@ function App() {
       <Header />
       <main className="main">
         <Home />
-        <div className="space--vertical" />
+        <div className="space--vertical-first" />
         <About />
         <div className="space--vertical" />
         <Skills />
@@ -35,8 +36,9 @@ function App() {
         <Testimonials />
         <div className="space--vertical" />
         <Contact />
-        <Footer />
       </main>
+      <Footer />
+      <ScrollUp />
     </>
   );
 }

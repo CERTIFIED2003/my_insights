@@ -98,6 +98,11 @@ img {
 }
 
 /* REUSABLE CSS CLASSES */
+.space--vertical-first {
+  /* padding: 4rem 0 4rem 0; */
+  margin-bottom: 10rem;
+}
+
 .space--vertical {
   padding: 4rem 0 4rem 0;
 }

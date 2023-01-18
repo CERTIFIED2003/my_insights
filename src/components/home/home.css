@@ -127,6 +127,8 @@
     .home__content {
         grid-template-columns: 100px repeat(2, 1fr);
         column-gap: 1.25rem;
+        row-gap: 4rem;
+        /* column-gap: 1.25rem; */
     }
 
     .home__hand {
@@ -183,8 +185,8 @@
     }
 
     .home__scroll {
-        /* display: none; */
-        margin: 0 auto;
+        display: none;
+        /* margin: 0 auto; */
     }
 }
 
