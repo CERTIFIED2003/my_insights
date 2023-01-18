@@ -20,8 +20,8 @@ function App() {
         <div className="space--vertical" />
         <Services />
         <Qualification />
-        <div className="space--vertical" />
         <Testimonials />
+        <div className="space--vertical" />
       </main>
     </>
   );

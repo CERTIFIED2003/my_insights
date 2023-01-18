@@ -97,17 +97,17 @@
 
 .wheel {
     rotate: 180deg;
-    transform: translateY(1rem);
+    transform: translateY(0.8rem);
     animation: scroll 5s ease infinite;
 }
 
 @keyframes scroll {
     0% {
-        transform: translateY(1rem);
+        transform: translateY(0.8rem);
     }
 
     30% {
-        transform: translateY(-1rem);
+        transform: translateY(-0.8rem);
     }
 }
 

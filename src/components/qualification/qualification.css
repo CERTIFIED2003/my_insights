@@ -38,7 +38,7 @@
     text-decoration: underline;
     text-decoration-color: var(--text-color);
     text-decoration-thickness: 1.5px;
-    transition: 5s;
+    transition: 3s;
 }
 
 .qualification__sections {
