@@ -1,5 +1,5 @@
-import Hand from "../../assets/hand.svg"
-import Send from "../../assets/send.svg"
+import Hand from "../../assets/hand.svg";
+import Send from "../../assets/send.svg";
 
 export default function Data() {
   return (

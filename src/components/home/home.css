@@ -98,7 +98,7 @@
 .wheel {
     rotate: 180deg;
     transform: translateY(0.8rem);
-    animation: scroll 5s ease infinite;
+    animation: scroll 4s ease infinite;
 }
 
 @keyframes scroll {

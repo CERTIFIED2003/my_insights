@@ -214,6 +214,15 @@ img {
   }
 }
 
+.scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: var(--title-color);
+  border-radius: 5px;
+}
+
 /* @media screen and (max-width: 992px) {}
 
 @media screen and (max-width: 768px) {}
