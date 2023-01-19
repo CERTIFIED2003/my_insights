@@ -9,12 +9,12 @@ export default function Header() {
         const header = document.querySelector(".header");
         if (this.scrollY >= 10) header.classList.add("scroll-header");
         else header.classList.remove("scroll-header");
-        if (this.scrollY >= 5500) {
-            header?.classList.add("show-header");
-        }
-        else {
-            header?.classList.remove("show-header");
-        }
+        // if (this.scrollY >= 5500) {
+        //     header?.classList.add("show-header");
+        // }
+        // else {
+        //     header?.classList.remove("show-header");
+        // }
     });
 
     const [activeNav, setActiveNav] = useState("#home");
@@ -56,7 +56,7 @@ export default function Header() {
 
                         <li className="nav__item">
                             <a href="#portfolio" onClick={() => setActiveNav("#portfolio")} className={activeNav === "#portfolio" ? "nav__link active-link" : "nav__link"}>
-                                <i className="uil uil-scenery nav__icon"></i> Portfolio
+                                <i className="uil uil-scenery nav__icon"></i> Projects
                             </a>
                         </li>
 

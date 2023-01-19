@@ -9,7 +9,8 @@ import Qualification from './components/qualification/Qualification';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Services from './components/services/Services';
 import Skills from './components/skills/Skills';
-import Testimonials from './components/testimonials/Testimonials';
+// import Testimonials from './components/testimonials/Testimonials';s
+import Work from './components/work/Work';
 
 function App() {
   // useEffect(() => {
@@ -33,7 +34,8 @@ function App() {
         <div className="space--vertical" />
         <Services />
         <Qualification />
-        <Testimonials />
+        <Work />
+        {/* <Testimonials /> */}
         <div className="space--vertical" />
         <Contact />
       </main>
