@@ -63,6 +63,11 @@
     text-align: justify;
 }
 
+.home__button-flex {
+    display: flex;
+    flex-direction: column;
+}
+
 .home__img {
     background: url(../../assets/profile.jpg);
     background-repeat: no-repeat;
