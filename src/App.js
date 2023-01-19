@@ -39,6 +39,7 @@ function App() {
         <div className="space--vertical" />
         <Contact />
       </main>
+      <div className="space--vertical" />
       <Footer />
       <ScrollUp />
     </>

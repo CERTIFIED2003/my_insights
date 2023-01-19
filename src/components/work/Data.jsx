@@ -74,7 +74,7 @@ export const projectsData = [
         framework: "PyGame",
         link: "https://github.com/CERTIFIED2003/py-game",
         button: "Github Repo",
-        category: "software",
+        category: "game",
     },
     {
         id: 8,
