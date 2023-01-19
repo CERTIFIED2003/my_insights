@@ -13,7 +13,8 @@ export default function Data() {
             A passionate teen developer from India who strictly keeps a record of every moment he spends.
         </p>
 
-        <a href="#contact" className="button button--flex">
+        {/* <a href="#contact" className="button button--flex"> */}
+        <a href="https://api.whatsapp.com/send?phone=9163161834&text=Namaste Shubham" className="button button--flex">
             Say Namaste
             <img src={Send} height={24} width={24} className="button__icon" alt="" />
         </a>
