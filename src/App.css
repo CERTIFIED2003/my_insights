@@ -151,9 +151,8 @@ img {
 
 .button-white {
   display: inline-block;
-  background-color: var(--container-color);
   color: var(--title-color);
-  padding: 0.25rem 1rem;
+  padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
 }

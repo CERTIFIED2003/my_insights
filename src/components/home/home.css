@@ -204,6 +204,10 @@
         max-width: initial;
         margin-bottom: var(--mb-1-25);
     }
+
+    .home__img {
+        margin: 0 1.5rem;
+    }
 }
 
 @media screen and (max-width: 350px) {
