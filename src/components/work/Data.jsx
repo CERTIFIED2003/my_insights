@@ -11,8 +11,18 @@ import Project10 from "../../assets/projects/Project10.jpg";
 import Project11 from "../../assets/projects/Project11.png";
 import Project12 from "../../assets/projects/Project12.png";
 import Project13 from "../../assets/projects/Project13.jpg";
+import Project14 from "../../assets/projects/Project14.png";
 
 export const projectsData = [
+    {
+        id: 14,
+        image: Project14,
+        title: "UbuntuOS",
+        framework: "NextJS & Tailwindcss",
+        link: "https://ubuntuos.pages.dev",
+        button: "Github Repo",
+        category: "web",
+    },
     {
         id: 1,
         image: Project2,

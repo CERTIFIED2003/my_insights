@@ -50,8 +50,8 @@ export default function Works() {
             <div className="work__container container grid">
                 {
                     // projects.slice(0,5).map((item) => {
-                    projects.map((item) => {
-                        return <WorkItems item={item} key={item.id} />
+                    projects.map((item, i) => {
+                        return <WorkItems item={item} key={i} />
                     })
                 }
             </div>
