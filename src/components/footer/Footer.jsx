@@ -6,6 +6,12 @@ export default function Footer() {
             <div className="footer__container container">
                 <h1 className="footer__title">Shubham</h1>
 
+                <div className="center-flex">
+                    <a href="https://www.buymeacoffee.com/lalshubham" target="_blank" rel="noopener noreferrer">
+                        <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=lalshubham&button_colour=333333&font_colour=ffffff&font_family=Poppins&outline_colour=ffffff&coffee_colour=FFDD00" alt="shubham buymeacoffee" />
+                    </a>
+                </div>
+
                 <ul className="footer__list">
                     <li>
                         <a href="#about" className="footer__link">About</a>

@@ -152,8 +152,7 @@ img {
 .button-white {
   display: inline-block;
   color: var(--title-color);
-  /* padding: 0.25rem 1rem; */
-  padding-left: 0.75rem;
+  padding: 1.25rem 0.75rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
 }
@@ -169,6 +168,12 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
+}
+
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* BREAKPOINTS */
