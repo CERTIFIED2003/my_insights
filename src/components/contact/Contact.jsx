@@ -63,8 +63,9 @@ export default function Contact() {
 
                             <a
                                 href="https://api.whatsapp.com/send?phone=9163161834&text=Namaste Shubham"
-                                className="contact__button">
-
+                                className="contact__button"
+                                target="_blank" rel="noopener noreferrer"
+                            >
                                 Chat
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>

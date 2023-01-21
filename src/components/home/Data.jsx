@@ -14,7 +14,7 @@ export default function Data() {
         A passionate teen developer from India who strictly keeps a record of every moment he spends.
       </p>
 
-      <a href="https://api.whatsapp.com/send?phone=9163161834&text=Namaste Shubham" className="button button--flex">
+      <a href="https://api.whatsapp.com/send?phone=9163161834&text=Namaste Shubham" className="button button--flex" target="_blank" rel="noopener noreferrer">
         Say Namaste
         <img src={Send} height={24} width={24} className="button__icon" alt="" />
       </a>
