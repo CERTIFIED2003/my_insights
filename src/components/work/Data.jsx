@@ -13,13 +13,23 @@ import Project12 from "../../assets/projects/Project12.png";
 import Project13 from "../../assets/projects/Project13.jpg";
 import Project14 from "../../assets/projects/Project14.png";
 import Project15 from "../../assets/projects/Project15.png";
+import Project16 from "../../assets/projects/Project16.png";
 
 export const projectsData = [
+    {
+        id: 16,
+        image: Project16,
+        title: "Questions Answering AI",
+        framework: "Vite & OPENAI",
+        link: "https://question-answer.pages.dev",
+        button: "Site",
+        category: "web",
+    },
     {
         id: 15,
         image: Project15,
         title: "Image Generator",
-        framework: "Vite & Tailwindcss",
+        framework: "Vite, OPENAI & Tailwindcss",
         link: "https://image-generator.pages.dev",
         button: "Site",
         category: "web",
