@@ -12,15 +12,25 @@ import Project11 from "../../assets/projects/Project11.png";
 import Project12 from "../../assets/projects/Project12.png";
 import Project13 from "../../assets/projects/Project13.jpg";
 import Project14 from "../../assets/projects/Project14.png";
+import Project15 from "../../assets/projects/Project15.png";
 
 export const projectsData = [
+    {
+        id: 15,
+        image: Project15,
+        title: "Image Generator",
+        framework: "Vite & Tailwindcss",
+        link: "https://image-generator.pages.dev",
+        button: "Site",
+        category: "web",
+    },
     {
         id: 14,
         image: Project14,
         title: "UbuntuOS",
         framework: "NextJS & Tailwindcss",
         link: "https://ubuntuos.pages.dev",
-        button: "Github Repo",
+        button: "Site",
         category: "web",
     },
     {
