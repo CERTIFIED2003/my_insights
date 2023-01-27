@@ -28,7 +28,7 @@ export const projectsData = [
     {
         id: 15,
         image: Project15,
-        title: "Image Generator",
+        title: "Pics Generator",
         framework: "Vite, OPENAI & Tailwindcss",
         link: "https://image-generator.pages.dev",
         button: "Site",
