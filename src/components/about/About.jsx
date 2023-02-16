@@ -1,6 +1,6 @@
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import ResumePdf from "../../assets/Shubham-Resume.pdf";
+import ResumePdf from "../../assets/Resume-Shubham-Lal.pdf";
 import FilesSVG from "../../assets/files.svg";
 import Info from "./Info";
 
@@ -13,13 +13,13 @@ export default function About() {
             <div className="about__container container grid">
                 <img src={AboutImg} alt="Shubham-Second" className="about__img" />
                 <p className="about__hobby">
-                    Full Stack Web Developer | Game Dev | Software Engineer | App Developer
+                    Full-Stack Developer | Game Dev | Software Programmer | App Developer
                 </p>
                 <div className="about__data">
                     <Info />
 
                     <p className="about__description">
-                        <span className="about__hobbies">Fullstack Web Developer | Game Dev | Software Engineer | App Developer</span>
+                        <span className="about__hobbies">Full-Stack Developer | Game Dev | Software Programmer | App Developer</span>
                         <span>I start my day reading newspaper in the morning, a few hours later dive into Game development for couple of hours and work on Websites all day along.</span>
                         At night, I practise some problems on Leetcode and Codeforces on the topics related to Data Structure and work out on some algorithm.
                     </p>
