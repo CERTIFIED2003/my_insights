@@ -20,8 +20,12 @@ export default function About() {
 
                     <p className="about__description">
                         <span className="about__hobbies">Full-Stack Developer | Game Dev | Software Programmer | App Developer</span>
-                        <span>I start my day reading newspaper in the morning, a few hours later dive into Game development for couple of hours and work on Websites all day along.</span>
-                        At night, I practise some problems on Leetcode and Codeforces on the topics related to Data Structure and work out on some algorithm.
+                        <span>From saving PowerPoint slides as HTML webpages to creating Full-Stack Web applications; from being mobile gamer to creating Video Games,
+                            it's how I describe myself as a developer. It has been a great journey so far. As long as we are committed, we can learn something new every day.
+                        </span>
+                        I anticipate a bright future thanks to my parents' encouragement and the friendship of my brother-like-friends.
+                        {/* <span>I start my day reading newspaper in the morning, a few hours later dive into Game development for couple of hours and work on Websites all day along.</span>
+                        At night, I practise some problems on Leetcode and Codeforces on the topics related to Data Structure and work out on some algorithm. */}
                     </p>
 
                     <a href={ResumePdf} className="button button--flex" target="_blank" rel="noopener noreferrer" >
